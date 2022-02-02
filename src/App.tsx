@@ -1,9 +1,11 @@
+import { Counter } from "./components/Counter";
+import { CounterBy } from "./components/CounterBy";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1> React </h1>
-      <hr />
+      <Counter initialValue={ 15 } />
+      <CounterBy />
     </>
   );
 }
